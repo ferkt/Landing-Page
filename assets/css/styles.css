@@ -150,9 +150,10 @@ tfoot td, thead th {
 .menu ul li a{
     display: block;
     padding: 2rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--primary-color);
     position: relative;
+    text-transform: uppercase;
 }
 
 .menu ul li a::after{
@@ -376,6 +377,7 @@ body .full-width {
 
     .menu {
         bottom: 0;
+        text-align: center;
     }
 
     .menu-content, .menu-content ul {
@@ -418,5 +420,15 @@ body .full-width {
 
     .menu-spacing {
         display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .grid-main-heading{
+        font-size: 5rem;
+    }
+
+    .intro-text-content h2{
+        font-size: 5rem;
     }
 }
